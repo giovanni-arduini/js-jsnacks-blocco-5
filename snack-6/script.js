@@ -28,6 +28,10 @@ const zucchine = [
 // console.log(longerZucchini);
 // console.log(shorterZucchini);
 
+//
+
+// versione con metodo filter, ripetuto due volte sull'array di partenza
+
 const shorterZucchini = zucchine.filter(({ length }) => length < 15);
 console.log(shorterZucchini);
 
