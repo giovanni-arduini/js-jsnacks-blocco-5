@@ -27,3 +27,11 @@ const foundStudentClass = students.find(
 ).class;
 
 console.log(foundStudentClass);
+
+// //
+// // soluzione in forma di funzione
+// function findStudentClass(studentName) {
+//   return students.find(({ name }) => name === studentName).class;
+// }
+
+// console.log(findStudentClass("Marco Lanci"));
